@@ -1,16 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title></title>
-</head>
-<body>
+<?php
+require_once __DIR__ . '/../app/config/_env.php';
 
-</body>
-</html>
+$app_name = getenv('APP_NAME');
 
-
-<?php 
-echo 'This is text with visio editer';
-
-
-?>
+echo $app_name;
